@@ -7,7 +7,7 @@ public class Recursion {
 ////    System.out.println(number);
 ////    --number;
 ////    countDown(number);
-    static  int sum(){
+    static  int sum(int number){
 
 
 
