@@ -15,7 +15,7 @@ public class Recursion {
 
     public static void main(String[] args) {
     // Recursion recursion=new Recursion();
-        countDown(4);
+        sum(4);
 
     }
 }
