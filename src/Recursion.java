@@ -1,5 +1,6 @@
 public class Recursion {
-void countDown(int number){
+//void countDown(int number){
+static void countDown(int number){
     System.out.println(number);
     --number;
     countDown(number);
@@ -7,7 +8,7 @@ void countDown(int number){
 }
 
     public static void main(String[] args) {
-     Recursion recursion=new Recursion();
+    // Recursion recursion=new Recursion();
 
     }
 }
