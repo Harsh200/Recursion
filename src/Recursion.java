@@ -19,7 +19,7 @@ public class Recursion {
 
     public static void main(String[] args) {
     // Recursion recursion=new Recursion();
-        sum(4);
+        System.out.println( sum(4));
 
     }
 }
