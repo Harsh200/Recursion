@@ -8,6 +8,9 @@ public class Recursion {
 ////    --number;
 ////    countDown(number);
     static  int sum(int number){
+        if(number ==1){
+            return 1;
+        }
 
 
 
