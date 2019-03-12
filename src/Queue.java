@@ -64,5 +64,7 @@ private Node next;
 
 
     }
+    public int dequeue() {
 
+    }
 }
