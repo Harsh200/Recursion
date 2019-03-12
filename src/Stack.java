@@ -41,18 +41,14 @@ public class Stack {
             this.top = this.top.getNext();
             this.size--;
 
-        }
-        else
-        {
+        } else {
             System.out.println("Stack is empty");
-    }
+        }
         return response;
+    }
+
+
 }
-
-
-
-
-
 
 
 
