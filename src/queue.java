@@ -24,4 +24,11 @@ private Node next;
             this.next = next;
         }
     }
+    private int size;
+    private Node front = null;
+    private Node rear = null;
+
+    public static void main(String[] args) {
+
+    }
 }
