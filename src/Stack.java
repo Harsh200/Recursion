@@ -150,6 +150,7 @@
 
                 temp = temp.getNext();
 
+
             }
 
             result.append("]");
