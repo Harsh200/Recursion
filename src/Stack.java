@@ -32,6 +32,10 @@ public class Stack {
         this.size++;
     }
     public int pop(){
+        int response=-1;
+
 
     }
+
+
 }
