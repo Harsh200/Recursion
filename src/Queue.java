@@ -1,4 +1,4 @@
-public class queue {
+public class Queue {
     private static class Node{
 private int data;
 private Node next;
@@ -29,6 +29,7 @@ private Node next;
     private Node rear = null;
 
     public static void main(String[] args) {
+    Queue queue= new Queue();
 
     }
 }
