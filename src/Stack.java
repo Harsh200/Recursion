@@ -5,7 +5,7 @@ public class Stack {
 
         public Node(int data, Node next) {
             this.data = data;
-            this.next=next;
+            this.next = next;
         }
 
         public int getData() {
@@ -24,15 +24,38 @@ public class Stack {
             this.next = next;
         }
     }
-    private Node top=null;
-    private int size=0;
+
+    private Node top = null;
+    private int size = 0;
+
     public void push(int data) {
-        Node newNode = new Node(data, this.top) ;
-        this.top=newNode;
+        Node newNode = new Node(data, this.top);
+        this.top = newNode;
         this.size++;
     }
-    public int pop(){
-        int response=-1;
+
+    public int pop() {
+        int response = -1;
+        if (this.top != null) {
+            response = this.top.getData();
+            this.top = this.top.getNext();
+            this.size--;
+
+        }
+        else
+        {
+            System.out.println("Stack is empty");
+    }
+        return response;
+}
+
+
+
+
+
+
+
+
 
 
     }
