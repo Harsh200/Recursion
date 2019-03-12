@@ -53,7 +53,16 @@ private Node next;
         result.append("]");
         return result.toString();
     }
-    public void enqueue(int data){
-        Node node=new Node(data,null);
+    public void enqueue(int data) {
+        Node node = new Node(data, null);
+    if(this.front==null && this.rear ==null){
+        this.front=this.rear=node;
     }
+    this.rear.setNext(node);
+    this.rear=node;
+    this.size++;
+
+
+    }
+
 }
